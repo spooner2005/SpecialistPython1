@@ -19,7 +19,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("Число: "))
+
+if n % 3  == 0 and n !=11:
+    print("Foo")
+elif n % 5  == 0 and n !=11:
+    print("Foobar")
+else:print("")
 ```
 
 ---
